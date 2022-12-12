@@ -100,5 +100,6 @@ if __name__ == '__main__':
     # drawGraph(G)
 
     G = loadListOfMatrixEdges('1.txt')
+    drawGraph(G)
     print(check_3rd_task(G))
 
